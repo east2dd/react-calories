@@ -1,6 +1,5 @@
 import { useObservableState } from 'observable-hooks';
-import React, { useMemo } from 'react';
-import { BehaviorSubject, combineLatestWith, map } from 'rxjs';
+import { combineLatestWith, map } from 'rxjs';
 import './App.css';
 import { FoodEntryListProvider, useFoodEntryList } from './store';
 
@@ -47,9 +46,23 @@ const Deck = () => {
   );
 }
 
-const Search = () => {
-  const { list$ } = useFoodEntryList();
-  const search$ = useMemo(() => new BehaviorSubject(""), [])
+const Filter = () => {
+  const { search$ } = useFoodEntryList();
+  const search = useObservableState(search$, "");
+
+  return (
+    <div>
+      <input
+        type="text"
+        value={search}
+        onChange={(e)=> search$.next(e.target.value)}
+        />
+    </div>
+  ) 
+}
+
+const List = () => {
+  const { list$, search$ } = useFoodEntryList();
   const [filteredList] = useObservableState(() => (
     list$.pipe(
       combineLatestWith(search$),
@@ -63,14 +76,6 @@ const Search = () => {
 
   return (
     <div>
-      <input
-        type="text"
-        value={search$.value}
-        onChange={(e)=> search$.next(e.target.value)}
-        />
-
-      <hr/>
-
       <div>
         { filteredList.map((f) => (
           <ListItem item={f} key={f.id}/>
@@ -82,12 +87,16 @@ const Search = () => {
 
 function App() {
   return (
-    <div className="App" style={{ display: "grid", gridTemplateColumns: "1fr 1fr"}}>
-      <FoodEntryListProvider>
-        <Search />
+    <FoodEntryListProvider>
+      <h2>Calories App</h2>
+      <div className="App" style={{ display: "grid", gridTemplateColumns: "1fr 1fr"}}>
+        <div>
+          <Filter />
+          <List />
+        </div>
         <Deck />
-      </FoodEntryListProvider>
-    </div>
+      </div>
+    </FoodEntryListProvider>
   );
 }
 

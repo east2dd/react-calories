@@ -11,6 +11,7 @@ export interface FoodEntry {
 
 export const rawList$ = new BehaviorSubject<FoodEntry[]>([]);
 export const selected$ = new BehaviorSubject<string[]>([]);
+export const search$ = new BehaviorSubject("");
 
 export const listWithDate$ = rawList$.pipe(
   map((foodEntry) => 
@@ -45,6 +46,7 @@ const FoodEntryListContext = createContext({
   deck$,
   list$,
   selected$,
+  search$
 });
 
 export const useFoodEntryList = () => useContext(FoodEntryListContext);
@@ -54,7 +56,8 @@ export const FoodEntryListProvider = (props: any) => {
     <FoodEntryListContext.Provider value={{
       deck$,
       list$,
-      selected$
+      selected$,
+      search$
     }}>
       { props.children }
     </FoodEntryListContext.Provider>
