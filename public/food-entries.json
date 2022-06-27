@@ -1,602 +1,702 @@
 [
   {
-    "id": "078d2853-7877-4a3d-b3b8-70a75baeaa12",
+    "id": "be3ab690-5a15-4ce7-8a57-606d660c95aa",
     "name": "almond",
-    "calorie": 143.62,
-    "taken_on": "2022-06-21T08:24:02-10:00"
+    "calorie": 103.8,
+    "taken_on": "2022-06-23T06:35:58-10:00",
+    "price_cents": 730
   },
   {
-    "id": "ebdac5a5-f964-437c-9e20-deacd2acaf51",
-    "name": "hamburger",
-    "calorie": 34.49,
-    "taken_on": "2022-06-21T05:29:29-10:00"
+    "id": "5f2d8241-38df-4685-9f37-8e3ccb5463db",
+    "name": "milk",
+    "calorie": 146.13,
+    "taken_on": "2022-06-23T01:46:09-10:00",
+    "price_cents": 868
   },
   {
-    "id": "41c56ba0-3f2a-418d-a2d1-604e10ec6239",
-    "name": "pork",
-    "calorie": 47.22,
-    "taken_on": "2022-06-20T03:43:14-10:00"
+    "id": "67c6f490-ec77-458a-ad24-71f5d9c23602",
+    "name": "milk",
+    "calorie": 85.7,
+    "taken_on": "2022-06-21T11:41:41-10:00",
+    "price_cents": 999
   },
   {
-    "id": "4394f0f2-5a7e-401d-8cb4-7fac9f570c5e",
-    "name": "apple",
-    "calorie": 155.91,
-    "taken_on": "2022-06-19T11:12:35-10:00"
-  },
-  {
-    "id": "8ad692bc-b613-4fef-a594-137600acc484",
-    "name": "hamburger",
-    "calorie": 115.74,
-    "taken_on": "2022-06-19T10:46:55-10:00"
-  },
-  {
-    "id": "69b449b8-4941-44af-8735-bf603c22a4a8",
+    "id": "0f40983a-545b-4df0-aa57-56baf2ce8152",
     "name": "banana",
-    "calorie": 102.74,
-    "taken_on": "2022-06-19T09:52:46-10:00"
+    "calorie": 161.21,
+    "taken_on": "2022-06-20T09:48:33-10:00",
+    "price_cents": 970
   },
   {
-    "id": "0f7a27d1-7423-4c06-8231-73e5ea89963c",
+    "id": "aa377ab8-55bd-4aa9-8637-85fc5f7a0b17",
+    "name": "milk",
+    "calorie": 91.16,
+    "taken_on": "2022-06-19T12:17:46-10:00",
+    "price_cents": 888
+  },
+  {
+    "id": "470db470-a142-40ad-8dff-2dc97d9b532c",
+    "name": "milk",
+    "calorie": 136.06,
+    "taken_on": "2022-06-19T07:49:50-10:00",
+    "price_cents": 609
+  },
+  {
+    "id": "0f523d8a-e0c3-49b9-a5ec-6cff48cacd8a",
+    "name": "hamburger",
+    "calorie": 56.17,
+    "taken_on": "2022-06-18T11:46:18-10:00",
+    "price_cents": 508
+  },
+  {
+    "id": "fa195826-b9d1-4292-9bcf-74c6f763466d",
+    "name": "hamburger",
+    "calorie": 179.19,
+    "taken_on": "2022-06-18T01:38:47-10:00",
+    "price_cents": 761
+  },
+  {
+    "id": "abd599ce-e162-40ba-9dae-0ccd00abcd5f",
+    "name": "pork",
+    "calorie": 78.14,
+    "taken_on": "2022-06-17T12:19:10-10:00",
+    "price_cents": 855
+  },
+  {
+    "id": "0a2ea6a5-1326-4b42-871c-adfde9ab5bc7",
+    "name": "hamburger",
+    "calorie": 158.73,
+    "taken_on": "2022-06-17T02:30:38-10:00",
+    "price_cents": 576
+  },
+  {
+    "id": "3eaa529c-d3cc-4b07-a667-88cbe9b8804f",
     "name": "apple",
-    "calorie": 64.82,
-    "taken_on": "2022-06-19T05:35:14-10:00"
+    "calorie": 180.47,
+    "taken_on": "2022-06-16T10:47:48-10:00",
+    "price_cents": 833
   },
   {
-    "id": "4ad10b4e-6707-44e1-a15c-e684aad267aa",
+    "id": "dea1a6fc-37b3-4480-a54c-8807fec29657",
+    "name": "banana",
+    "calorie": 114.16,
+    "taken_on": "2022-06-16T09:07:16-10:00",
+    "price_cents": 813
+  },
+  {
+    "id": "75f629a8-95ff-48ec-ae22-ef68fa8d42d8",
+    "name": "milk",
+    "calorie": 114.44,
+    "taken_on": "2022-06-16T05:14:35-10:00",
+    "price_cents": 653
+  },
+  {
+    "id": "98ce2aa5-5beb-42f3-b140-2501d71a865c",
+    "name": "pork",
+    "calorie": 88.1,
+    "taken_on": "2022-06-16T02:30:53-10:00",
+    "price_cents": 821
+  },
+  {
+    "id": "06eeeb3b-673d-4844-939b-a767c603cf69",
+    "name": "pork",
+    "calorie": 159.06,
+    "taken_on": "2022-06-16T01:45:20-10:00",
+    "price_cents": 914
+  },
+  {
+    "id": "b96a84f1-8e22-4e93-8106-a39f673aa7b9",
+    "name": "banana",
+    "calorie": 71.97,
+    "taken_on": "2022-06-15T12:23:35-10:00",
+    "price_cents": 603
+  },
+  {
+    "id": "fcc2e33e-0c17-4278-a5ba-ff15728cd867",
+    "name": "banana",
+    "calorie": 141.97,
+    "taken_on": "2022-06-14T03:32:49-10:00",
+    "price_cents": 880
+  },
+  {
+    "id": "8f9a3e2e-b8e3-4fce-9b96-cd2a139ed974",
+    "name": "hamburger",
+    "calorie": 26.44,
+    "taken_on": "2022-06-13T12:56:56-10:00",
+    "price_cents": 929
+  },
+  {
+    "id": "d2bf7948-2486-4582-9370-38cb19126220",
     "name": "almond",
-    "calorie": 101.82,
-    "taken_on": "2022-06-18T08:34:26-10:00"
+    "calorie": 56,
+    "taken_on": "2022-06-13T10:29:21-10:00",
+    "price_cents": 680
   },
   {
-    "id": "bb6d7d02-1c98-4c67-8853-b59dadde5296",
+    "id": "d9f8f052-e37f-40bb-9827-7129c4f93b6a",
     "name": "milk",
-    "calorie": 118.84,
-    "taken_on": "2022-06-17T11:35:48-10:00"
+    "calorie": 179.42,
+    "taken_on": "2022-06-13T08:56:56-10:00",
+    "price_cents": 770
   },
   {
-    "id": "66997854-159c-46ec-9315-af2fc0920a70",
-    "name": "milk",
-    "calorie": 195.03,
-    "taken_on": "2022-06-14T11:30:26-10:00"
+    "id": "0aef3e50-0398-4cfd-b6a6-b67962b2d559",
+    "name": "hamburger",
+    "calorie": 127,
+    "taken_on": "2022-06-12T10:38:38-10:00",
+    "price_cents": 850
   },
   {
-    "id": "8d33f3ef-f02c-4d74-ae1b-dc908619cc2c",
-    "name": "milk",
-    "calorie": 92.59,
-    "taken_on": "2022-06-14T09:47:21-10:00"
+    "id": "17c32720-99c0-476e-a8c6-752109f9da0a",
+    "name": "apple",
+    "calorie": 126.46,
+    "taken_on": "2022-06-12T02:04:23-10:00",
+    "price_cents": 781
   },
   {
-    "id": "43922c85-e902-46a1-b702-1d32718b6ed4",
+    "id": "ebde160b-b79d-4d93-8195-84e8bb2ebe09",
     "name": "pork",
-    "calorie": 57.31,
-    "taken_on": "2022-06-14T03:53:10-10:00"
+    "calorie": 137.68,
+    "taken_on": "2022-06-11T10:37:42-10:00",
+    "price_cents": 562
   },
   {
-    "id": "fd54aa27-77fa-4695-a599-3e706bcc1eb0",
-    "name": "hamburger",
-    "calorie": 81.9,
-    "taken_on": "2022-06-13T11:24:54-10:00"
-  },
-  {
-    "id": "86b01316-23c6-4758-92a2-be67bb1fa7fb",
-    "name": "hamburger",
-    "calorie": 138.07,
-    "taken_on": "2022-06-12T08:23:53-10:00"
-  },
-  {
-    "id": "6aea0c34-bf18-4e54-89df-53462deeb171",
-    "name": "hamburger",
-    "calorie": 87.25,
-    "taken_on": "2022-06-12T02:44:09-10:00"
-  },
-  {
-    "id": "a98fe8c8-68c2-4718-95c0-eb92ce4d24bd",
+    "id": "3d77cbde-b288-4b54-9806-4af611f3a242",
     "name": "apple",
-    "calorie": 105.83,
-    "taken_on": "2022-06-11T12:44:03-10:00"
+    "calorie": 98.71,
+    "taken_on": "2022-06-11T08:39:22-10:00",
+    "price_cents": 692
   },
   {
-    "id": "268a4efb-ec16-4512-9c66-627d4ad2a145",
-    "name": "apple",
-    "calorie": 46.34,
-    "taken_on": "2022-06-11T12:06:58-10:00"
-  },
-  {
-    "id": "f42a2c2f-8cdc-465a-8b2c-14f23313ae26",
-    "name": "milk",
-    "calorie": 24.98,
-    "taken_on": "2022-06-11T01:33:14-10:00"
-  },
-  {
-    "id": "8690818d-ef24-43be-b81f-1607b6159783",
-    "name": "pork",
-    "calorie": 101.81,
-    "taken_on": "2022-06-07T05:17:24-10:00"
-  },
-  {
-    "id": "1e33adfc-312a-4d01-8935-eaffea679858",
-    "name": "apple",
-    "calorie": 178.52,
-    "taken_on": "2022-06-05T09:43:45-10:00"
-  },
-  {
-    "id": "d0c81064-a851-4264-bd8b-d2664efb9211",
-    "name": "hamburger",
-    "calorie": 100,
-    "taken_on": "2022-06-03T12:23:13-10:00"
-  },
-  {
-    "id": "f8a26413-d360-4bb1-a90c-38ce446405b3",
-    "name": "banana",
-    "calorie": 67.21,
-    "taken_on": "2022-06-03T04:09:12-10:00"
-  },
-  {
-    "id": "783a79aa-25e9-4f0a-a8a4-a670f1d819bb",
+    "id": "f899c28b-20fb-4606-a431-6f8abfef404e",
     "name": "almond",
-    "calorie": 96.41,
-    "taken_on": "2022-06-03T02:54:09-10:00"
+    "calorie": 27.57,
+    "taken_on": "2022-06-11T07:48:43-10:00",
+    "price_cents": 530
   },
   {
-    "id": "40d975e8-113f-498d-a9c5-828c65702b60",
-    "name": "apple",
-    "calorie": 166.19,
-    "taken_on": "2022-06-02T11:25:35-10:00"
-  },
-  {
-    "id": "5e75d4a3-d2dd-43d1-b98f-6343300cf6b9",
-    "name": "banana",
-    "calorie": 57.87,
-    "taken_on": "2022-06-02T02:41:33-10:00"
-  },
-  {
-    "id": "1780f202-2e68-4945-a599-e56996c5c8e0",
+    "id": "3d8703d9-09c0-4c2a-ad67-e9cd8368bfcb",
     "name": "hamburger",
-    "calorie": 136.81,
-    "taken_on": "2022-05-30T12:59:27-10:00"
-  },
-  {
-    "id": "4c281cb5-1426-4c29-bc7d-fd68750da370",
-    "name": "almond",
-    "calorie": 25.75,
-    "taken_on": "2022-05-29T09:43:47-10:00"
-  },
-  {
-    "id": "e0a82501-8324-4fe1-b15c-1ac126bd0fff",
-    "name": "hamburger",
-    "calorie": 31.94,
-    "taken_on": "2022-05-29T03:08:27-10:00"
-  },
-  {
-    "id": "e07c46b5-d93f-4c42-afda-27b7f5c681cb",
-    "name": "banana",
-    "calorie": 171.2,
-    "taken_on": "2022-05-27T04:39:53-10:00"
-  },
-  {
-    "id": "8e328555-61d9-4707-9d2e-73658cc1b9e3",
-    "name": "milk",
-    "calorie": 149.47,
-    "taken_on": "2022-05-25T02:11:08-10:00"
-  },
-  {
-    "id": "17376479-c5f0-44df-ae5c-81508f27e79b",
-    "name": "apple",
-    "calorie": 193.27,
-    "taken_on": "2022-05-25T01:11:44-10:00"
-  },
-  {
-    "id": "bf5bcd04-fa83-43d4-920a-3da56cec91f7",
-    "name": "banana",
-    "calorie": 123.56,
-    "taken_on": "2022-05-24T07:07:28-10:00"
-  },
-  {
-    "id": "648aafd0-8a14-4b1a-a7a8-53f18e4111c0",
-    "name": "banana",
-    "calorie": 41.2,
-    "taken_on": "2022-05-21T05:12:33-10:00"
-  },
-  {
-    "id": "be098e46-d9fa-44ba-82eb-76750cf7636c",
-    "name": "banana",
-    "calorie": 184.91,
-    "taken_on": "2022-05-18T01:00:39-10:00"
-  },
-  {
-    "id": "aecf4fa1-4857-47b1-b030-a5ce5b1f1066",
-    "name": "apple",
-    "calorie": 183.26,
-    "taken_on": "2022-05-17T05:52:57-10:00"
-  },
-  {
-    "id": "90bf20f6-b7fb-4001-a2d9-00addb10512d",
-    "name": "banana",
-    "calorie": 66.16,
-    "taken_on": "2022-05-16T05:20:44-10:00"
-  },
-  {
-    "id": "438ef20d-bb72-4129-9edc-8c9460b0014c",
-    "name": "banana",
-    "calorie": 109.27,
-    "taken_on": "2022-05-16T01:46:27-10:00"
-  },
-  {
-    "id": "ced81b7e-84e4-49fb-922d-5fd11f9c5232",
-    "name": "hamburger",
-    "calorie": 187.03,
-    "taken_on": "2022-05-14T11:55:45-10:00"
-  },
-  {
-    "id": "54f50d76-be96-4ab0-b74c-61cb225ebeb1",
-    "name": "hamburger",
-    "calorie": 164.28,
-    "taken_on": "2022-05-10T08:19:49-10:00"
-  },
-  {
-    "id": "cdbea4c2-4a0c-4bea-aefd-aac1d3ddae1e",
-    "name": "hamburger",
-    "calorie": 78.07,
-    "taken_on": "2022-05-10T03:54:52-10:00"
-  },
-  {
-    "id": "026922bc-c5f6-4a95-98a1-37eaaf4ca5a8",
-    "name": "apple",
-    "calorie": 65.42,
-    "taken_on": "2022-05-09T11:52:50-10:00"
-  },
-  {
-    "id": "ae8f9b3b-6a44-4e49-9946-4b5dfb5c667f",
-    "name": "pork",
-    "calorie": 83.45,
-    "taken_on": "2022-05-09T08:57:57-10:00"
-  },
-  {
-    "id": "2bd0ddd7-9b89-4eba-9253-f940c042cf26",
-    "name": "apple",
-    "calorie": 58.5,
-    "taken_on": "2022-05-08T09:39:24-10:00"
-  },
-  {
-    "id": "9058da71-c9d7-4c6a-851a-d9ddf78be12c",
-    "name": "banana",
-    "calorie": 28.93,
-    "taken_on": "2022-05-08T08:32:08-10:00"
-  },
-  {
-    "id": "e973b7a0-13fa-49e2-86dc-8b5e42dd9191",
-    "name": "pork",
-    "calorie": 41.47,
-    "taken_on": "2022-05-08T04:30:00-10:00"
-  },
-  {
-    "id": "65527d25-a237-416a-8ce9-213ee93dd9df",
-    "name": "hamburger",
-    "calorie": 180.72,
-    "taken_on": "2022-05-07T07:28:50-10:00"
-  },
-  {
-    "id": "2966377f-e013-42c2-9c54-ac96aa411a9d",
-    "name": "apple",
-    "calorie": 47.17,
-    "taken_on": "2022-05-07T05:55:21-10:00"
-  },
-  {
-    "id": "47b44f40-2034-46b3-9316-8bc740468577",
-    "name": "apple",
-    "calorie": 99.91,
-    "taken_on": "2022-05-06T10:33:10-10:00"
-  },
-  {
-    "id": "43f64b43-b95a-4171-9cd0-ae76db18b4d2",
-    "name": "apple",
     "calorie": 124.97,
-    "taken_on": "2022-05-06T06:00:17-10:00"
+    "taken_on": "2022-06-11T03:48:25-10:00",
+    "price_cents": 704
   },
   {
-    "id": "b40f80c1-bbdf-48b7-a650-99eee5d989cd",
-    "name": "pork",
-    "calorie": 72.51,
-    "taken_on": "2022-05-06T04:01:42-10:00"
-  },
-  {
-    "id": "0b4ef3ad-f01c-4c2f-b2f0-dc558f34d49a",
-    "name": "banana",
-    "calorie": 187.66,
-    "taken_on": "2022-05-05T04:56:46-10:00"
-  },
-  {
-    "id": "f2e44e02-26bd-4927-b49b-16087588ebc2",
-    "name": "milk",
-    "calorie": 88.47,
-    "taken_on": "2022-05-05T01:03:14-10:00"
-  },
-  {
-    "id": "9e854243-6511-42a3-b4ee-17418a47ee34",
-    "name": "milk",
-    "calorie": 148.15,
-    "taken_on": "2022-05-04T10:08:57-10:00"
-  },
-  {
-    "id": "cbd87627-b2e9-4ce0-8002-b782b0dd3604",
-    "name": "hamburger",
-    "calorie": 196.08,
-    "taken_on": "2022-05-03T11:29:39-10:00"
-  },
-  {
-    "id": "f4cc6544-ae96-4f34-a60f-ce41adee4702",
+    "id": "ae36d4e0-29bd-4260-b0f2-b04d584320d0",
     "name": "apple",
-    "calorie": 42.48,
-    "taken_on": "2022-05-03T06:25:02-10:00"
+    "calorie": 78.9,
+    "taken_on": "2022-06-09T11:15:01-10:00",
+    "price_cents": 997
   },
   {
-    "id": "3c11e3db-07f0-4ed8-9e68-79b1f574f56b",
-    "name": "pork",
-    "calorie": 102.36,
-    "taken_on": "2022-05-02T03:19:50-10:00"
-  },
-  {
-    "id": "1b0bcf74-50a1-4f6d-9856-7ff6150313e2",
-    "name": "banana",
-    "calorie": 80.96,
-    "taken_on": "2022-05-01T10:55:58-10:00"
-  },
-  {
-    "id": "677b2689-fdfd-4db8-a870-77fd442a69bc",
-    "name": "almond",
-    "calorie": 174.82,
-    "taken_on": "2022-05-01T10:15:15-10:00"
-  },
-  {
-    "id": "3dec525b-c3b0-499b-85c5-b537923a5fba",
-    "name": "banana",
-    "calorie": 177.29,
-    "taken_on": "2022-05-01T02:08:05-10:00"
-  },
-  {
-    "id": "150f073b-4024-4e9a-84e4-d4326b15abb6",
-    "name": "milk",
-    "calorie": 199.24,
-    "taken_on": "2022-04-28T12:23:29-10:00"
-  },
-  {
-    "id": "d5d357ce-cbcd-4a45-a6d3-5e4e185123e2",
-    "name": "milk",
-    "calorie": 155.08,
-    "taken_on": "2022-04-28T08:34:03-10:00"
-  },
-  {
-    "id": "c58b3031-9af7-4f56-bdc4-65cc8d3bc660",
-    "name": "hamburger",
-    "calorie": 21.62,
-    "taken_on": "2022-04-28T02:37:53-10:00"
-  },
-  {
-    "id": "106b24eb-70b5-4957-b450-75ad93a5b6fc",
-    "name": "milk",
-    "calorie": 69.34,
-    "taken_on": "2022-04-27T12:11:27-10:00"
-  },
-  {
-    "id": "5798e0ae-6846-4c5e-baa5-a1bf4c438258",
-    "name": "milk",
-    "calorie": 198.3,
-    "taken_on": "2022-04-27T01:08:02-10:00"
-  },
-  {
-    "id": "263791fd-86c3-42c2-954a-fa74fe48c8dc",
-    "name": "hamburger",
-    "calorie": 37.45,
-    "taken_on": "2022-04-22T05:34:33-10:00"
-  },
-  {
-    "id": "9b02da5c-8557-4976-b7a2-9cc679e03ddd",
-    "name": "banana",
-    "calorie": 23.28,
-    "taken_on": "2022-04-21T12:18:17-10:00"
-  },
-  {
-    "id": "9a201e07-3b57-49fd-8262-89c044e0f6fb",
-    "name": "hamburger",
-    "calorie": 109.51,
-    "taken_on": "2022-04-21T07:54:09-10:00"
-  },
-  {
-    "id": "cae7415c-8e03-44d9-8e63-4ebe864ea68e",
+    "id": "1bba7200-eb47-42d5-99c6-5344ff8e5c65",
     "name": "apple",
-    "calorie": 61.98,
-    "taken_on": "2022-04-21T01:27:11-10:00"
+    "calorie": 120.54,
+    "taken_on": "2022-06-08T06:30:43-10:00",
+    "price_cents": 710
   },
   {
-    "id": "f9d1ccdd-827c-4487-8770-55ab927012ee",
+    "id": "a9fde24e-3be1-49c9-bf44-a2e842c38f5f",
     "name": "banana",
-    "calorie": 161.49,
-    "taken_on": "2022-04-20T12:18:56-10:00"
+    "calorie": 39.78,
+    "taken_on": "2022-06-08T01:58:58-10:00",
+    "price_cents": 874
   },
   {
-    "id": "eb31cfaf-2be7-43db-b0f6-593c2ab1dadc",
+    "id": "95f7abbe-3a04-41cb-94c2-b9652b48fe64",
     "name": "apple",
-    "calorie": 126.55,
-    "taken_on": "2022-04-20T10:20:38-10:00"
+    "calorie": 56.59,
+    "taken_on": "2022-06-07T12:18:25-10:00",
+    "price_cents": 613
   },
   {
-    "id": "24ede823-dcf7-4b40-bc72-647811ba6b74",
-    "name": "hamburger",
-    "calorie": 29.33,
-    "taken_on": "2022-04-20T05:19:19-10:00"
-  },
-  {
-    "id": "0d60a063-b8ce-421f-b6c5-461356532dcc",
-    "name": "hamburger",
-    "calorie": 90.89,
-    "taken_on": "2022-04-19T01:57:15-10:00"
-  },
-  {
-    "id": "b85201b2-718f-4768-bad3-632a685dfe14",
+    "id": "cc082d24-805b-4826-a278-dc130ebaf950",
     "name": "banana",
-    "calorie": 142.83,
-    "taken_on": "2022-04-18T11:20:07-10:00"
+    "calorie": 90.73,
+    "taken_on": "2022-06-07T07:42:48-10:00",
+    "price_cents": 850
   },
   {
-    "id": "6b552335-c096-4771-a4ff-c01c79f4f808",
-    "name": "milk",
-    "calorie": 139.23,
-    "taken_on": "2022-04-18T08:40:43-10:00"
-  },
-  {
-    "id": "be6c9c93-d2a4-4997-91aa-99570152c03c",
-    "name": "almond",
-    "calorie": 153.33,
-    "taken_on": "2022-04-14T12:32:31-10:00"
-  },
-  {
-    "id": "fcbaae37-25ec-4eb9-b985-4f11e4c6bd85",
-    "name": "pork",
-    "calorie": 116.71,
-    "taken_on": "2022-04-14T08:08:43-10:00"
-  },
-  {
-    "id": "ebdf4b99-7384-4fd5-a1f1-825ffa4abfe2",
-    "name": "banana",
-    "calorie": 154.92,
-    "taken_on": "2022-04-14T01:00:41-10:00"
-  },
-  {
-    "id": "3818d776-fc12-4c7a-b7cc-cbce3bc02a8c",
-    "name": "pork",
-    "calorie": 112.57,
-    "taken_on": "2022-04-13T12:15:50-10:00"
-  },
-  {
-    "id": "bb58ba8f-e1cc-44ed-8350-5d505fdc060b",
-    "name": "milk",
-    "calorie": 71.14,
-    "taken_on": "2022-04-11T02:01:02-10:00"
-  },
-  {
-    "id": "bbeacedb-59a5-424c-bc08-ee0051d7d765",
+    "id": "c5011a15-7110-4e9d-be6d-fb5ae791edb2",
     "name": "hamburger",
-    "calorie": 92.43,
-    "taken_on": "2022-04-10T12:34:17-10:00"
+    "calorie": 111.62,
+    "taken_on": "2022-06-07T06:41:33-10:00",
+    "price_cents": 901
   },
   {
-    "id": "8f4f7b6e-12ed-4be8-bedc-4883885132f0",
+    "id": "bd08dc54-9208-4855-b965-9814d481955b",
+    "name": "banana",
+    "calorie": 103.34,
+    "taken_on": "2022-06-07T02:27:26-10:00",
+    "price_cents": 745
+  },
+  {
+    "id": "8bd83f5c-14d5-449c-b48d-768e4644f0d9",
+    "name": "pork",
+    "calorie": 192.1,
+    "taken_on": "2022-06-06T05:45:02-10:00",
+    "price_cents": 631
+  },
+  {
+    "id": "c14b7302-254f-4512-8e6d-0099e11f5291",
+    "name": "hamburger",
+    "calorie": 146.35,
+    "taken_on": "2022-06-04T12:13:16-10:00",
+    "price_cents": 627
+  },
+  {
+    "id": "6fc22b0e-2a15-43b9-a7b8-873ca79b8f7c",
+    "name": "hamburger",
+    "calorie": 155.99,
+    "taken_on": "2022-06-04T07:31:13-10:00",
+    "price_cents": 687
+  },
+  {
+    "id": "155ec294-4bb4-41ca-8027-d2d67aacd3aa",
+    "name": "milk",
+    "calorie": 81.76,
+    "taken_on": "2022-06-04T06:22:11-10:00",
+    "price_cents": 946
+  },
+  {
+    "id": "c8c3bff1-0458-44ab-b08d-f5c3c4f2948b",
     "name": "apple",
-    "calorie": 34.01,
-    "taken_on": "2022-04-10T12:07:13-10:00"
+    "calorie": 52.59,
+    "taken_on": "2022-06-03T07:32:47-10:00",
+    "price_cents": 832
   },
   {
-    "id": "289d5749-aa33-4005-8621-ad148a899ee0",
+    "id": "4d2f8eff-5826-469b-8718-55058a38205e",
     "name": "milk",
-    "calorie": 87.43,
-    "taken_on": "2022-04-09T04:33:12-10:00"
+    "calorie": 152.52,
+    "taken_on": "2022-06-03T05:49:56-10:00",
+    "price_cents": 749
   },
   {
-    "id": "1359ec33-4ffc-4e52-ae5a-ec560cf2f4c5",
-    "name": "almond",
-    "calorie": 126.14,
-    "taken_on": "2022-04-09T04:09:09-10:00"
-  },
-  {
-    "id": "e4c89b40-f832-442b-8ca4-bf566e2b361c",
-    "name": "banana",
-    "calorie": 31.01,
-    "taken_on": "2022-04-09T03:32:50-10:00"
-  },
-  {
-    "id": "908e01f6-7600-4e7a-8203-48f803cd1fe6",
+    "id": "09a8f2cb-63f9-415f-9405-b297370c5d5f",
     "name": "hamburger",
-    "calorie": 24.83,
-    "taken_on": "2022-04-08T04:57:03-10:00"
+    "calorie": 144.54,
+    "taken_on": "2022-06-03T01:20:52-10:00",
+    "price_cents": 538
   },
   {
-    "id": "11994479-0603-493d-aa20-bd4c14a80ba0",
-    "name": "milk",
-    "calorie": 35.79,
-    "taken_on": "2022-04-08T01:46:08-10:00"
+    "id": "3ff42b85-5795-481d-9142-53b012bb4520",
+    "name": "hamburger",
+    "calorie": 28.39,
+    "taken_on": "2022-06-02T12:29:44-10:00",
+    "price_cents": 907
   },
   {
-    "id": "d4ee77f5-5a8f-422a-a9bf-b126cf68992a",
+    "id": "0215ab9f-162a-4153-a2f0-b114fa1b3552",
+    "name": "hamburger",
+    "calorie": 101.73,
+    "taken_on": "2022-06-02T11:40:32-10:00",
+    "price_cents": 568
+  },
+  {
+    "id": "a1886f31-418f-4342-83cf-8b2c5c99ad13",
+    "name": "banana",
+    "calorie": 121.12,
+    "taken_on": "2022-06-02T09:21:54-10:00",
+    "price_cents": 873
+  },
+  {
+    "id": "5c0cad66-1672-4aed-826b-4eb4b9e7526c",
+    "name": "apple",
+    "calorie": 116.79,
+    "taken_on": "2022-06-02T08:26:27-10:00",
+    "price_cents": 521
+  },
+  {
+    "id": "939a1e75-00ae-4e36-81d9-8fc097e6372e",
     "name": "pork",
-    "calorie": 37.69,
-    "taken_on": "2022-04-07T06:24:30-10:00"
+    "calorie": 185.47,
+    "taken_on": "2022-06-02T01:04:09-10:00",
+    "price_cents": 542
   },
   {
-    "id": "3180e181-0c27-4c85-a7dc-eb72d34f22a1",
-    "name": "banana",
-    "calorie": 194.82,
-    "taken_on": "2022-04-07T03:40:44-10:00"
-  },
-  {
-    "id": "ec62ab91-8ac2-416e-a5eb-16804c9b7d7f",
-    "name": "banana",
-    "calorie": 99,
-    "taken_on": "2022-04-06T06:50:10-10:00"
-  },
-  {
-    "id": "16b867ae-31b8-4051-b9b8-7898fb5f4332",
+    "id": "3c9ce49d-e06a-4050-b5dd-febbb7eb4818",
     "name": "pork",
-    "calorie": 157.98,
-    "taken_on": "2022-04-05T03:29:11-10:00"
+    "calorie": 89.03,
+    "taken_on": "2022-06-01T12:38:41-10:00",
+    "price_cents": 599
   },
   {
-    "id": "e0ba0e31-95b2-4bac-ad37-bf77cab8765c",
+    "id": "8a2284b0-e70a-4526-9e62-9731b299584d",
+    "name": "pork",
+    "calorie": 148.97,
+    "taken_on": "2022-06-01T08:22:34-10:00",
+    "price_cents": 997
+  },
+  {
+    "id": "54da77e9-acdc-4a81-a246-00a10c94fdd8",
     "name": "almond",
-    "calorie": 148.39,
-    "taken_on": "2022-04-04T12:39:08-10:00"
+    "calorie": 168.47,
+    "taken_on": "2022-05-31T03:40:52-10:00",
+    "price_cents": 777
   },
   {
-    "id": "2d5c6535-bb9b-4436-af81-bdf9510fa16e",
-    "name": "almond",
-    "calorie": 46.29,
-    "taken_on": "2022-04-04T08:16:01-10:00"
-  },
-  {
-    "id": "47d4763d-741d-41f8-a4df-4cb379bded11",
-    "name": "hamburger",
-    "calorie": 149.53,
-    "taken_on": "2022-04-04T01:42:20-10:00"
-  },
-  {
-    "id": "080fa7c3-0cf3-4c78-8bb4-d2f71ba71fed",
+    "id": "e466206c-8fe5-49db-8879-98b6f116f5a8",
     "name": "milk",
-    "calorie": 97.69,
-    "taken_on": "2022-04-03T07:59:14-10:00"
+    "calorie": 123.58,
+    "taken_on": "2022-05-31T01:39:45-10:00",
+    "price_cents": 611
   },
   {
-    "id": "11e667d7-5c21-4b73-a43a-8171134c40b0",
-    "name": "hamburger",
-    "calorie": 71.52,
-    "taken_on": "2022-04-03T07:40:14-10:00"
+    "id": "5016ffd9-bdd8-48a4-af8b-ef67d57c4492",
+    "name": "pork",
+    "calorie": 82.91,
+    "taken_on": "2022-05-29T10:47:40-10:00",
+    "price_cents": 849
   },
   {
-    "id": "fe5b735e-f992-4013-b8c3-1a4723e4ff11",
-    "name": "hamburger",
-    "calorie": 160.74,
-    "taken_on": "2022-04-03T05:53:37-10:00"
+    "id": "8f1c3e88-aa39-4cac-82d1-0570da6b86fd",
+    "name": "almond",
+    "calorie": 191.01,
+    "taken_on": "2022-05-29T06:49:13-10:00",
+    "price_cents": 849
   },
   {
-    "id": "4ce20baf-69a3-490e-83a3-6a1f63105c1a",
-    "name": "hamburger",
-    "calorie": 142.39,
-    "taken_on": "2022-04-02T09:33:12-10:00"
+    "id": "3c149883-8812-4f85-8fb1-3a335f249f2e",
+    "name": "pork",
+    "calorie": 25.7,
+    "taken_on": "2022-05-29T06:38:41-10:00",
+    "price_cents": 996
   },
   {
-    "id": "64609304-4931-4081-bbbd-f46b21cdb95b",
+    "id": "c55a25af-455c-4956-8e9e-701b9fb005c8",
+    "name": "pork",
+    "calorie": 20.03,
+    "taken_on": "2022-05-28T09:13:53-10:00",
+    "price_cents": 925
+  },
+  {
+    "id": "043bc228-e0de-4925-9d0b-8ff0bc1d5462",
+    "name": "milk",
+    "calorie": 157.59,
+    "taken_on": "2022-05-28T05:39:43-10:00",
+    "price_cents": 951
+  },
+  {
+    "id": "1a3824a4-c5bb-431f-9d61-a00dc0c9b70a",
     "name": "banana",
-    "calorie": 120.95,
-    "taken_on": "2022-04-02T08:36:14-10:00"
+    "calorie": 169.87,
+    "taken_on": "2022-05-27T01:32:07-10:00",
+    "price_cents": 611
   },
   {
-    "id": "4af0172a-d40a-4262-a5c2-a0693bc03c6b",
-    "name": "hamburger",
-    "calorie": 146.62,
-    "taken_on": "2022-04-02T01:30:33-10:00"
+    "id": "201d5439-f9bf-47f2-acbe-a35793192e45",
+    "name": "banana",
+    "calorie": 169.46,
+    "taken_on": "2022-05-23T04:59:06-10:00",
+    "price_cents": 884
   },
   {
-    "id": "834eb357-b7cb-45f5-8fe9-de5810299ce3",
+    "id": "d8de19a1-b0ca-45e2-892e-85f1e3c7e665",
+    "name": "banana",
+    "calorie": 105.27,
+    "taken_on": "2022-05-22T10:09:18-10:00",
+    "price_cents": 528
+  },
+  {
+    "id": "63cb4ed3-c79a-4c3c-a70d-4d61bc5b77e3",
+    "name": "almond",
+    "calorie": 153.92,
+    "taken_on": "2022-05-22T07:05:40-10:00",
+    "price_cents": 779
+  },
+  {
+    "id": "ee2e9572-b846-42f8-b725-82c63d5a9350",
+    "name": "banana",
+    "calorie": 26.66,
+    "taken_on": "2022-05-21T12:32:53-10:00",
+    "price_cents": 691
+  },
+  {
+    "id": "c494b1c4-2bc1-40cd-acb3-9a3d2e2c25c3",
     "name": "milk",
-    "calorie": 66.19,
-    "taken_on": "2022-04-01T07:48:38-10:00"
+    "calorie": 149.89,
+    "taken_on": "2022-05-21T10:52:05-10:00",
+    "price_cents": 503
+  },
+  {
+    "id": "61ccb580-b86a-4619-bcf0-cb0be14c708e",
+    "name": "pork",
+    "calorie": 175.04,
+    "taken_on": "2022-05-20T12:47:44-10:00",
+    "price_cents": 521
+  },
+  {
+    "id": "ec4f1727-1d71-4fb7-aac2-d1497f9332ba",
+    "name": "hamburger",
+    "calorie": 37.29,
+    "taken_on": "2022-05-20T10:40:27-10:00",
+    "price_cents": 631
+  },
+  {
+    "id": "51320011-4724-4f65-add7-9c38738e33d2",
+    "name": "almond",
+    "calorie": 127.57,
+    "taken_on": "2022-05-20T05:45:38-10:00",
+    "price_cents": 504
+  },
+  {
+    "id": "39d76a6f-d2a3-4360-97fb-5946158a8558",
+    "name": "hamburger",
+    "calorie": 191.11,
+    "taken_on": "2022-05-20T05:02:36-10:00",
+    "price_cents": 578
+  },
+  {
+    "id": "0825674b-7ebf-4a6f-a9ba-7523d784348a",
+    "name": "apple",
+    "calorie": 74.29,
+    "taken_on": "2022-05-19T12:37:20-10:00",
+    "price_cents": 786
+  },
+  {
+    "id": "06a80290-6ecd-495a-a547-54aae4e339e6",
+    "name": "pork",
+    "calorie": 43.37,
+    "taken_on": "2022-05-19T11:51:48-10:00",
+    "price_cents": 690
+  },
+  {
+    "id": "c637a926-e838-40aa-8c34-db62dab42946",
+    "name": "apple",
+    "calorie": 172.63,
+    "taken_on": "2022-05-19T09:25:06-10:00",
+    "price_cents": 883
+  },
+  {
+    "id": "c271e2bc-f1b0-49ee-b739-1d7ac5e82e8b",
+    "name": "pork",
+    "calorie": 162.68,
+    "taken_on": "2022-05-19T09:15:39-10:00",
+    "price_cents": 501
+  },
+  {
+    "id": "0766e44f-ace4-46bd-ae1a-9c99cafd5b93",
+    "name": "hamburger",
+    "calorie": 166.23,
+    "taken_on": "2022-05-19T06:15:59-10:00",
+    "price_cents": 892
+  },
+  {
+    "id": "aca3d9bc-3542-4788-8c51-1645983e4f3c",
+    "name": "apple",
+    "calorie": 120.79,
+    "taken_on": "2022-05-18T09:21:46-10:00",
+    "price_cents": 675
+  },
+  {
+    "id": "d6ba31b0-0a74-422e-b8d4-253ad6d12b6c",
+    "name": "almond",
+    "calorie": 166.74,
+    "taken_on": "2022-05-17T11:39:38-10:00",
+    "price_cents": 671
+  },
+  {
+    "id": "6bf576f3-2891-4463-b788-0b27cb129f42",
+    "name": "hamburger",
+    "calorie": 127.52,
+    "taken_on": "2022-05-17T07:00:08-10:00",
+    "price_cents": 954
+  },
+  {
+    "id": "600f14dc-4dc4-4043-ab88-07667f66dabc",
+    "name": "hamburger",
+    "calorie": 92.6,
+    "taken_on": "2022-05-17T05:57:14-10:00",
+    "price_cents": 531
+  },
+  {
+    "id": "cf7297d4-f46a-4ec1-966e-d586a5af2836",
+    "name": "almond",
+    "calorie": 81.81,
+    "taken_on": "2022-05-17T01:37:27-10:00",
+    "price_cents": 771
+  },
+  {
+    "id": "b77645e7-5c79-4ce9-82d2-bd10d6a879ae",
+    "name": "banana",
+    "calorie": 45.83,
+    "taken_on": "2022-05-16T01:24:31-10:00",
+    "price_cents": 515
+  },
+  {
+    "id": "b68d7b52-3c37-485c-9139-b6ef9784e85e",
+    "name": "banana",
+    "calorie": 57.21,
+    "taken_on": "2022-05-14T08:24:36-10:00",
+    "price_cents": 681
+  },
+  {
+    "id": "21ddca99-2790-4634-8709-b76400d6e3eb",
+    "name": "almond",
+    "calorie": 42.38,
+    "taken_on": "2022-05-13T10:29:48-10:00",
+    "price_cents": 631
+  },
+  {
+    "id": "8ee717a4-c73d-4674-b756-aaaf21d70868",
+    "name": "almond",
+    "calorie": 128.24,
+    "taken_on": "2022-05-13T01:45:11-10:00",
+    "price_cents": 628
+  },
+  {
+    "id": "10794268-e092-4684-8b0e-12901c863681",
+    "name": "banana",
+    "calorie": 101.3,
+    "taken_on": "2022-05-12T06:02:08-10:00",
+    "price_cents": 682
+  },
+  {
+    "id": "0129e89d-886e-415b-bd2f-9a433f87411d",
+    "name": "apple",
+    "calorie": 189.07,
+    "taken_on": "2022-05-12T04:25:18-10:00",
+    "price_cents": 968
+  },
+  {
+    "id": "bd42713f-5a19-46fa-9df5-09f33bac3233",
+    "name": "pork",
+    "calorie": 159.12,
+    "taken_on": "2022-05-11T04:20:53-10:00",
+    "price_cents": 811
+  },
+  {
+    "id": "cec18318-7c89-495f-991f-8924c50a0be2",
+    "name": "almond",
+    "calorie": 53.46,
+    "taken_on": "2022-05-10T12:39:35-10:00",
+    "price_cents": 775
+  },
+  {
+    "id": "12860d39-a577-4d53-8144-768c4739593b",
+    "name": "milk",
+    "calorie": 82.18,
+    "taken_on": "2022-05-10T11:43:19-10:00",
+    "price_cents": 774
+  },
+  {
+    "id": "f0e3d7fc-ee79-4340-8a98-12c0464fc998",
+    "name": "almond",
+    "calorie": 135.48,
+    "taken_on": "2022-05-10T08:00:47-10:00",
+    "price_cents": 768
+  },
+  {
+    "id": "72c3735e-5b72-452a-83e0-b0e04d9d999a",
+    "name": "almond",
+    "calorie": 172.22,
+    "taken_on": "2022-05-10T07:42:12-10:00",
+    "price_cents": 754
+  },
+  {
+    "id": "2c5d600d-40b2-4ce7-8cb9-595f57506cba",
+    "name": "hamburger",
+    "calorie": 49.21,
+    "taken_on": "2022-05-09T09:51:51-10:00",
+    "price_cents": 681
+  },
+  {
+    "id": "2d321f83-ac1d-4719-b677-7cdd6ae43b16",
+    "name": "apple",
+    "calorie": 169.77,
+    "taken_on": "2022-05-08T11:18:06-10:00",
+    "price_cents": 984
+  },
+  {
+    "id": "2507fd06-a00a-4b8f-8cd1-284be037dae7",
+    "name": "banana",
+    "calorie": 173.15,
+    "taken_on": "2022-05-08T05:01:02-10:00",
+    "price_cents": 804
+  },
+  {
+    "id": "4c13b171-d2a6-486c-863a-9bd6ba465835",
+    "name": "almond",
+    "calorie": 82.47,
+    "taken_on": "2022-05-08T01:58:25-10:00",
+    "price_cents": 782
+  },
+  {
+    "id": "71774989-6fb2-4543-85da-e70df334cc6a",
+    "name": "milk",
+    "calorie": 89.18,
+    "taken_on": "2022-05-08T01:52:14-10:00",
+    "price_cents": 639
+  },
+  {
+    "id": "605039e5-6f3b-4d95-938b-0064d28c5b59",
+    "name": "hamburger",
+    "calorie": 102.64,
+    "taken_on": "2022-05-07T03:08:34-10:00",
+    "price_cents": 635
+  },
+  {
+    "id": "141bb3e2-a64f-4ff6-95c0-bb447ea0dba5",
+    "name": "milk",
+    "calorie": 166.53,
+    "taken_on": "2022-05-06T08:18:43-10:00",
+    "price_cents": 757
+  },
+  {
+    "id": "848ff215-3f6d-4ec9-a657-fa78c39bd1ed",
+    "name": "hamburger",
+    "calorie": 77.35,
+    "taken_on": "2022-05-05T01:18:35-10:00",
+    "price_cents": 558
+  },
+  {
+    "id": "87f3e767-8a42-423f-98e7-92f2842fb963",
+    "name": "pork",
+    "calorie": 67.29,
+    "taken_on": "2022-05-04T11:49:21-10:00",
+    "price_cents": 981
+  },
+  {
+    "id": "35348e80-bd45-4523-9d8b-36d3b1791fd8",
+    "name": "hamburger",
+    "calorie": 22.21,
+    "taken_on": "2022-05-04T09:20:17-10:00",
+    "price_cents": 513
+  },
+  {
+    "id": "c675628a-68ae-4d39-85a1-bc09247de166",
+    "name": "milk",
+    "calorie": 172.45,
+    "taken_on": "2022-05-03T11:28:15-10:00",
+    "price_cents": 936
+  },
+  {
+    "id": "e10b0aec-39bf-4f9e-a351-a9eb3f6c9ccd",
+    "name": "banana",
+    "calorie": 81.84,
+    "taken_on": "2022-05-03T05:48:36-10:00",
+    "price_cents": 914
+  },
+  {
+    "id": "6fa69442-96d6-4621-b919-974a0aeba457",
+    "name": "pork",
+    "calorie": 131.42,
+    "taken_on": "2022-05-03T02:42:02-10:00",
+    "price_cents": 596
+  },
+  {
+    "id": "e8206221-8fbf-444f-98f4-4d5e43e0ce55",
+    "name": "milk",
+    "calorie": 114.23,
+    "taken_on": "2022-05-01T10:55:44-10:00",
+    "price_cents": 585
+  },
+  {
+    "id": "e82a8038-60f4-46c9-9ac1-e5d07ac878fc",
+    "name": "banana",
+    "calorie": 186.97,
+    "taken_on": "2022-05-01T03:06:43-10:00",
+    "price_cents": 651
   }
 ]

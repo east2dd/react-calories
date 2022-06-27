@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  line-height: 1.5rem;
+}
+
+.app {
+  display: grid;
+  grid-template-rows: 80px auto 80px;
+}
+
+.app__header {
+  padding: 0.5rem 2rem;
+  text-align: left;
+  background: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.app__footer {
+  text-align: center;
+  background: #f2f2f2;
+  padding: 2rem;
+}
+
+input {
+  min-width: 10rem;
+  padding: 0.5rem;
+}
