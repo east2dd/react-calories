@@ -1,10 +1,10 @@
 import { useMemo } from "react"
 import styled from "styled-components"
-import { FoodEntryDeckContainer } from "../../containers/food-entry/FoodEntryDeckContainer"
-import { FoodEntryFilterContainer } from "../../containers/food-entry/FoodEntryFilterContainer"
-import { FoodEntryListContainer } from "../../containers/food-entry/FoodEntryListContainer"
-import { FoodEntryStatsContainer } from "../../containers/food-entry/FoodEntryStatsContainer"
-import { fetchFoodEntryRawList } from "../../stores/food-entry"
+import { FoodDeckContainer } from "../../containers/food/FoodDeckContainer"
+import { FoodFilterContainer } from "../../containers/food/FoodFilterContainer"
+import { FoodListContainer } from "../../containers/food/FoodListContainer"
+import { FoodStatsContainer } from "../../containers/food/FoodStatsContainer"
+import { fetchFoodRawList } from "../../stores/food"
 
 const StyledFilterSection = styled.div`
   display: flex;
@@ -21,27 +21,27 @@ const StyledContentSection = styled.div`
 `;
 
 
-export const FoodEntryListScreen = () => {
+export const FoodListScreen = () => {
   useMemo(() => {
-    fetchFoodEntryRawList();
+    fetchFoodRawList();
   }, []);
 
   return <>
     <StyledFilterSection>
       <div>
-        <FoodEntryFilterContainer />
+        <FoodFilterContainer />
       </div>
       <div>
-        <FoodEntryStatsContainer />
+        <FoodStatsContainer />
       </div>
     </StyledFilterSection>
 
     <StyledContentSection>
       <div className="app__content__main">
-        <FoodEntryListContainer />
+        <FoodListContainer />
       </div>
       <div className="app__content__aside">
-        <FoodEntryDeckContainer />
+        <FoodDeckContainer />
       </div>
     </StyledContentSection>
   </>

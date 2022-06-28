@@ -1,4 +1,4 @@
-export const FoodEntryStats = (props: any) => {
+export const FoodStats = (props: any) => {
 
   return (
     <div className="stats">

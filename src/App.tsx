@@ -1,20 +1,30 @@
 import './App.scss';
-
-import { FoodEntryListScreen } from './screens/food-entry/FoodEntryListScreen';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { FoodListScreen } from './screens/food/FoodListScreen';
+import { LoginScreen } from './screens/user/LoginScreen';
+import { AuthProvider, RequireAuth } from './stores/auth';
+import { Header } from './components/ui/Header';
 
 function App() {
   return (
-    <div className="app">
-      <div className="app__header">
-        <h2>Calories</h2>
+    <BrowserRouter>
+    <AuthProvider>
+      <div className="app">
+        <div className="app__header">
+          <Header />
+        </div>
+        <div className="app__content">
+          <Routes>
+            <Route path="/login" element={<LoginScreen />} />
+            <Route path="/" element={<RequireAuth><FoodListScreen /></RequireAuth>} />
+          </Routes>
+        </div>
+        <div className="app__footer">
+          Written by xyingsoft @2022
+        </div>
       </div>
-      <div className="app__content">
-        <FoodEntryListScreen /> 
-      </div>
-      <div className="app__footer">
-        Written by xyingsoft @2022
-      </div>
-    </div>
+      </AuthProvider>
+    </BrowserRouter>
   );
 }
 

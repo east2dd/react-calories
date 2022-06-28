@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledFoodEntryListItem = styled.div`
+const StyledFoodListItem = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   &:nth-child(even) {background-color: #f2f2f2;}
@@ -10,28 +10,28 @@ const StyledFoodEntryListItem = styled.div`
   }
 `;
 
-export const FoodEntryListHeadRow = () => {
+export const FoodListHeadRow = () => {
   return (      
-    <StyledFoodEntryListItem>
+    <StyledFoodListItem>
       <div>
       </div>
       <div>Name</div>
       <div>Calories</div>
       <div>Date</div>
       <div>Price</div>
-    </StyledFoodEntryListItem>
+    </StyledFoodListItem>
   )
 }
 
-export const FoodEntryListItem = (props: any) => {
+export const FoodListItem = (props: any) => {
   const it = props.item;
 
-  const handleSelection = (foodEntry: any) => {
-    props.onSelectionChange(foodEntry.id, foodEntry.selected);
+  const handleSelection = (Food: any) => {
+    props.onSelectionChange(Food.id, Food.selected);
   }
 
   return (
-    <StyledFoodEntryListItem>
+    <StyledFoodListItem>
       <div>
         <input type="checkbox"
           checked={it.selected}
@@ -43,18 +43,18 @@ export const FoodEntryListItem = (props: any) => {
       <div>{it.name}</div>
       <div>{it.calorie}</div>
       <div>{it.taken_on_date.toISOString().split('T')[0]}</div>
-      <div>${it.price_cents / 100}</div>
-    </StyledFoodEntryListItem>
+      <div>${it.price_in_cents / 100}</div>
+    </StyledFoodListItem>
   );
 }
 
-export const FoodEntryList = (props: any) => {
+export const FoodList = (props: any) => {
   return (
     <div className="list">
-      <FoodEntryListHeadRow />
+      <FoodListHeadRow />
 
       { props.items.map((f: any) => (
-        <FoodEntryListItem item={f} key={f.id} onSelectionChange={props.onSelectionChange} />
+        <FoodListItem item={f} key={f.id} onSelectionChange={props.onSelectionChange} />
       ))}
     </div>
   );

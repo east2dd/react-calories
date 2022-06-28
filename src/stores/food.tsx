@@ -1,26 +1,27 @@
 import { createContext, useContext } from "react";
 import { BehaviorSubject, map, combineLatestWith } from "rxjs";
+import { axiosPublic } from "./axios";
 
-export interface FoodEntry {
+export interface Food {
   id: string;
   name: string;
-  taken_on: Date;
+  taken_at: string;
   calorie: string;
   price_cents: number;
   selected?: boolean;
   taken_on_date?: string;
 };
 
-const rawList$ = new BehaviorSubject<FoodEntry[]>([]);
+const rawList$ = new BehaviorSubject<Food[]>([]);
 const selected$ = new BehaviorSubject<string[]>([]);
 const search$ = new BehaviorSubject("");
 const searchTakenOnStart$ = new BehaviorSubject("");
 
 const listWithDate$ = rawList$.pipe(
-  map((foodEntry) => 
-    foodEntry.map((f) => ({
+  map((Food) => 
+    Food.map((f) => ({
       ...f,
-      taken_on_date: new Date(f.taken_on),
+      taken_on_date: new Date(f.taken_at),
     }))
   )
 );
@@ -69,7 +70,7 @@ const stats$ = filtered$.pipe(
   })
 )
 
-const FoodEntryListContext = createContext({
+const FoodListContext = createContext({
   deck$,
   list$,
   selected$,
@@ -79,9 +80,9 @@ const FoodEntryListContext = createContext({
   stats$,
 });
 
-export const FoodEntryListProvider = (props: any) => {
+export const FoodListProvider = (props: any) => {
   return (
-    <FoodEntryListContext.Provider value={{
+    <FoodListContext.Provider value={{
       deck$,
       list$,
       selected$,
@@ -91,22 +92,22 @@ export const FoodEntryListProvider = (props: any) => {
       stats$
     }}>
       { props.children }
-    </FoodEntryListContext.Provider>
+    </FoodListContext.Provider>
   );
 }
 
-export const useFoodEntryList = () => useContext(FoodEntryListContext);
+export const useFoodList = () => useContext(FoodListContext);
 
-const fetchFoodEntryListEndpoint = () => {
-  return fetch('/food-entries.json')
-    .then((res) => res.json());
+const fetchFoodListEndpoint = () => {
+  return axiosPublic.get('/api/v1/foods.json')
+    .then((res) => res.data);
 }
 
-export const fetchFoodEntryRawList = () => {
-  fetchFoodEntryListEndpoint().then((data) => rawList$.next(data));
+export const fetchFoodRawList = () => {
+  fetchFoodListEndpoint().then((data) => rawList$.next(data));
 }
 
-export const updateFoodEntrySelection = (id: string, selected: boolean) => {
+export const updateFoodSelection = (id: string, selected: boolean) => {
   if(selected) {
     selected$.next(selected$.value.filter((s) => s!==id));
   } else {

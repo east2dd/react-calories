@@ -1,9 +1,9 @@
 import { useObservableState } from "observable-hooks";
-import { FoodEntryFilter } from "../../components/food-entry/FoodEntryFilter";
-import { useFoodEntryList } from "../../stores/food-entry";
+import { FoodFilter } from "../../components/food/FoodFilter";
+import { useFoodList } from "../../stores/food";
 
-export const FoodEntryFilterContainer = () => {
-  const { search$, searchTakenOnStart$ } = useFoodEntryList();
+export const FoodFilterContainer = () => {
+  const { search$, searchTakenOnStart$ } = useFoodList();
   const search = useObservableState(search$, "");
   const searchTakenOnStart = useObservableState(searchTakenOnStart$, "");
 
@@ -16,11 +16,11 @@ export const FoodEntryFilterContainer = () => {
   }
 
   return (
-    <FoodEntryFilter
+    <FoodFilter
       name={search}
       takenOnStart={searchTakenOnStart}
       onNameChange={handleNameChange}
       onTakenOnStartChange={handleTakenOnStartChange}
-    ></FoodEntryFilter>
+    ></FoodFilter>
   ) 
 }
