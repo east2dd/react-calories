@@ -1,3 +1,9 @@
+import styled from "styled-components";
+
+const StyledAuthStatus = styled.div`
+  display: flex;
+  align-items: center;
+`;
 
 export function AuthStatus(props: any) {
   if (!props.user) {
@@ -5,13 +11,9 @@ export function AuthStatus(props: any) {
   }
 
   return (
-    <div>
+    <StyledAuthStatus>
       <span>Welcome {props.user.email}&nbsp;</span>
-      <input
-        type="button"
-        value="Signout"
-        onClick={props.onClickSignout}
-      />
-    </div>
+      <button onClick={props.onSignoutClick}>Logout</button>
+    </StyledAuthStatus>
   );
 }

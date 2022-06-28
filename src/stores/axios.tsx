@@ -2,7 +2,7 @@ import axios from "axios";
 import { signout, token$ } from "./auth";
 
 export const axiosPublic = axios.create({
-  baseURL: "http://localhost:3001",
+  baseURL: "http://localhost:3000",
   headers: {
     "Content-Type": "application/json",
   },
@@ -25,11 +25,11 @@ axiosPublic.interceptors.response.use(
 );
 
 
-export const setJwtToken = (token: string) => {
+export const storeJwtToken = (token: string) => {
+  axiosPublic.defaults.headers.common['Authorization'] = 'Bearer ' + token;
   localStorage.setItem('jwt_token', token);
-  axiosPublic.defaults.headers.common['Authorization'] = token;
 }
 
 token$.subscribe((token)=> {
-  setJwtToken(token);
-})
+  storeJwtToken(token);
+});

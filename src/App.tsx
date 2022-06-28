@@ -8,22 +8,22 @@ import { Header } from './components/ui/Header';
 function App() {
   return (
     <BrowserRouter>
-    <AuthProvider>
-      <div className="app">
-        <div className="app__header">
-          <Header />
+      <AuthProvider>
+        <div className="app">
+          <div className="app__header">
+            <Header />
+          </div>
+          <div className="app__content">
+            <Routes>
+              <Route path="/" element={<RequireAuth><FoodListScreen /></RequireAuth>} />
+              <Route path="/login" element={<LoginScreen />} />
+            </Routes>
+          </div>
+          <div className="app__footer">
+            Written by xyingsoft @2022
+          </div>
         </div>
-        <div className="app__content">
-          <Routes>
-            <Route path="/login" element={<LoginScreen />} />
-            <Route path="/" element={<RequireAuth><FoodListScreen /></RequireAuth>} />
-          </Routes>
-        </div>
-        <div className="app__footer">
-          Written by xyingsoft @2022
-        </div>
-      </div>
-      </AuthProvider>
+        </AuthProvider>
     </BrowserRouter>
   );
 }

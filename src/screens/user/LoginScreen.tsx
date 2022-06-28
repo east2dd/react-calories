@@ -1,22 +1,42 @@
 import {
+  Navigate,
   useNavigate,
 } from "react-router-dom";
 import { useState } from "react";
 import styled from "styled-components";
 import { useAuth } from "../../stores/auth";
 import { axiosPublic } from "../../stores/axios";
+import { useObservableState } from "observable-hooks";
+
+const StyledLoginScreenGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+`;
 
 const StyledLoginScreen = styled.div`
+  grid-column: 2 / 3;
+
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 2rem;
+
+  input, button {
+    width: 100%;
+  }
 `;
 
 export const LoginScreen = (props: any) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState(""); 
-  const {signin, signout}  = useAuth();
+  const {token$, signin, signout}  = useAuth();
   const navigate = useNavigate();
+  const token = useObservableState(token$, null);
+
+  if (token) {
+    return <Navigate to="/" state={{ from: '/login' }} replace />;
+  }
+
   const handleEmailChange = (e: any) => {
     setEmail(e.target.value);
   }
@@ -29,14 +49,13 @@ export const LoginScreen = (props: any) => {
     const user = {
       user: {
        email: email,
-       password: password, 
+       password: password,
       }
     }
 
-    signout(() => {});
     axiosPublic.post("/users/sign_in", user).then((res) => {
       if (res.headers.authorization) {
-        signin(res.headers.authorization, () => { navigate("/") });
+        signin(res.headers.authorization.split(' ')[1], () => { navigate("/") });
       }
     }).catch((err) => {
       signout(() => {});
@@ -44,28 +63,27 @@ export const LoginScreen = (props: any) => {
   }
 
   return (
-    <StyledLoginScreen>
-      <div>
-        <input
-          type="text"
-          value={email}
-          onChange={handleEmailChange}
-          placeholder="Email"
-          />
-      </div>
-      <div>
-        <input type="text"
-          value={password}
-          onChange={handlePasswordChange}
-          placeholder="Password"
-          />
-      </div>
-      <div>
-        <input type="button"
-          value="Login"
-          onClick={handleLoginClick}
-        />
-      </div>
-    </StyledLoginScreen>
+    <StyledLoginScreenGrid>
+      <StyledLoginScreen>
+        <div>
+          <input
+            type="text"
+            value={email}
+            onChange={handleEmailChange}
+            placeholder="Email"
+            />
+        </div>
+        <div>
+          <input type="password"
+            value={password}
+            onChange={handlePasswordChange}
+            placeholder="Password"
+            />
+        </div>
+        <div>
+          <button onClick={handleLoginClick}>Login</button>
+        </div>
+      </StyledLoginScreen>
+    </StyledLoginScreenGrid>
   ) 
 }

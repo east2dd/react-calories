@@ -3,7 +3,6 @@ import { useObservableState } from "observable-hooks";
 import { createContext, ReactNode, useContext, useMemo } from "react";
 
 import {
-  useNavigate,
   useLocation,
   Navigate,
 } from "react-router-dom";
@@ -32,6 +31,7 @@ export const signin = (token: string, callback: VoidFunction) => {
 export const signout = (callback: VoidFunction) => {
   user$.next(null!);
   token$.next('');
+
   callback();
 };
 
@@ -48,13 +48,13 @@ export const AuthContext = createContext<AuthContextType>({
   signout
 });
 
-
 export function AuthProvider({ children }: { children: ReactNode }) {
-  let value = { user$, token$, signin, signout };
-  const token = useObservableState(token$);
+  const value = { user$, token$, signin, signout };
+  const token = useObservableState(token$, '');
+
   useMemo(() => {
     authenticate(token);
-  }, [token])
+  }, [token]);
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
@@ -64,9 +64,9 @@ export function useAuth() {
 }
 
 export function RequireAuth({ children }: { children: JSX.Element }) {
-  let auth = useAuth();
+  const { token$ } = useAuth();
   let location = useLocation();
-  const token = useObservableState(auth.token$, null);
+  const token = useObservableState(token$, null);
 
   if (!token) {
     // Redirect them to the /login page, but save the current location they were

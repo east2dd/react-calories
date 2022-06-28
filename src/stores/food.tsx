@@ -99,7 +99,7 @@ export const FoodListProvider = (props: any) => {
 export const useFoodList = () => useContext(FoodListContext);
 
 const fetchFoodListEndpoint = () => {
-  return axiosPublic.get('/api/v1/foods.json')
+  return axiosPublic.get('/api/v1/foods')
     .then((res) => res.data);
 }
 

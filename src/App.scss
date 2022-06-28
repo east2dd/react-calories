@@ -25,7 +25,8 @@ body {
   padding: 2rem;
 }
 
-input {
+input, button {
   min-width: 10rem;
   padding: 0.5rem;
+  box-sizing: border-box;
 }

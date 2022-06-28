@@ -15,6 +15,6 @@ export const AuthStatusContainer = (props: any) => {
   }
 
   return (
-    <AuthStatus user={user} onClickSignout={signoutHandler} />
+    <AuthStatus user={user} onSignoutClick={signoutHandler} />
   );
 }
