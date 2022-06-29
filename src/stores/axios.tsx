@@ -1,5 +1,5 @@
 import axios from "axios";
-import { signout, token$ } from "./auth";
+import { signout } from "./auth";
 
 export const axiosPublic = axios.create({
   baseURL: "http://localhost:3000",
@@ -7,7 +7,6 @@ export const axiosPublic = axios.create({
     "Content-Type": "application/json",
   },
 });
-
 
 axiosPublic.interceptors.response.use(
   (res) => {
@@ -23,13 +22,3 @@ axiosPublic.interceptors.response.use(
     return Promise.reject(err);
   }
 );
-
-
-export const storeJwtToken = (token: string) => {
-  axiosPublic.defaults.headers.common['Authorization'] = 'Bearer ' + token;
-  localStorage.setItem('jwt_token', token);
-}
-
-token$.subscribe((token)=> {
-  storeJwtToken(token);
-});

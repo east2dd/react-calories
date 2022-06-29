@@ -12,11 +12,16 @@ import { axiosPublic } from "./axios";
 interface User {
   email?: string;
 }
+export const getAuthorizationToken = () => localStorage.getItem('jwt_token') || '';
+export const configAuthorizationBearToken = (token: string) => {
+  axiosPublic.defaults.headers.common['Authorization'] = 'Bearer ' + (token || getAuthorizationToken());
+  localStorage.setItem('jwt_token', token);
+}
 
 export const user$ = new BehaviorSubject<User>(null!);
-export const token$ = new BehaviorSubject<string>(localStorage.getItem('jwt_token') || '');
+export const token$ = new BehaviorSubject<string>(getAuthorizationToken());
 
-interface AuthContextType {
+interface TypeAuthContext {
   user$: BehaviorSubject<User>;
   token$: BehaviorSubject<string>;
   signin: (token: string, callback: VoidFunction) => void;
@@ -41,7 +46,7 @@ export const authenticate = (token: string) => {
   });
 }
 
-export const AuthContext = createContext<AuthContextType>({
+export const AuthContext = createContext<TypeAuthContext>({
   user$,
   token$,
   signin,
@@ -53,6 +58,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const token = useObservableState(token$, '');
 
   useMemo(() => {
+    configAuthorizationBearToken(token);
     authenticate(token);
   }, [token]);
 
